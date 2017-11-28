@@ -1,4 +1,4 @@
-#mekan
+
 yas=int(input("yasinizi gir:"))
 
 if yas>=18:
