@@ -1,0 +1,19 @@
+kul_adi="tahresnagod"
+parola="serhat.36426"
+
+k_adi=input("kullanici adi gir:")
+p=input("parolayi giriniz:")
+
+
+if(kul_adi==k_adi and parola==p):
+    print("hosgeldiz...")
+
+
+elif(kul_adi!=k_adi and parola==p): 
+    print("kullanici adi yanlış.Tekrar deneyiniz..!")
+
+elif(kul_adi==k_adi and parola!=p):
+    print("parola yanlis tekrar deneyin..")
+
+else:
+    ("kullanizi adi ve parola yanlis")
