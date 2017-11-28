@@ -1,0 +1,28 @@
+vize=float(input("vize notunu gir:"))
+final=float(input("final notunu gir:"))
+vize=float(vize*(4/10))
+final=float(final*(6/10))
+note=float(vize)+float(final)
+
+if note<=100:
+    if note>89:
+        print("AA Aldiniz Ve gecerli notunuz 4.00")
+    elif note>84:
+        print("BA Aldiniz Ve gecerli notunuz 3.50")
+    elif note>79:
+        print("BB Aldiniz Ve gecerli notunuz 3.00")
+    elif note>69:
+        print("CB Aldiniz Ve gecerli notunuz 2.50")
+    elif note>59:
+        print("CC Aldiniz Ve gecerli notunuz 2.00")
+    elif note>54:
+        print("DC Aldiniz Ve gecerli notunuz 1.50")
+    elif note>49:
+        print(" DD Aldiniz Ve gecerli notunuz 1.00")
+    elif note>39:
+        print("FD ile kaldınız Ve gecerli notunuz 0.50")
+    else:
+        print("FF ile kaldınız Ve gecerli notunuz 0.00")
+else:
+    print("vize ve final notlarinin dogru girin...!!")
+        
